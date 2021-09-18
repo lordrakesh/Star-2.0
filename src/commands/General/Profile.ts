@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://i.postimg.cc/1tw4rC3t/8debcf6fa25b3d81cd7896f61e4aea45-removebg-preview.png'
+                'https://wallpapercave.com/uwp/uwp1415151.png'
         }
         const data = await this.client.getUser(user)
         await M.reply(
