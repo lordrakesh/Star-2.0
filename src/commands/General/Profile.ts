@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Kawaii_robot_power_clipart.svg/640px-Kawaii_robot_power_clipart.svg.png'
+                'https://wallpapercave.com/uwp/uwp1401029.png'
         }
         const data = await this.client.getUser(user)
         await M.reply(
