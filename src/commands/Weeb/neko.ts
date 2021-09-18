@@ -33,7 +33,7 @@ export default class Command extends BaseCommand {
                     MessageType.image,
                     undefined,
                     undefined,
-                    `Here you go ✨\n`,
+                    `Here you go 🖤\n`,
                     undefined
                 )
                 break
