@@ -25,7 +25,7 @@ return void M.reply(await request.buffer('https://i.postimg.cc/1tw4rC3t/8debcf6f
 MessageType.image,
             undefined,
             undefined,
-            `*Did you mean- #help*`
+            `*Did you mean - #help*`
 
 
 )
