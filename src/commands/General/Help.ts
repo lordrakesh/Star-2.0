@@ -32,7 +32,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `*✇𝒦𝒶𝓀𝒶𝓈𝒽𝒾'𝓈 𝒞𝑜𝓂𝓂𝒶𝓃𝒹 𝐿𝒾𝓈𝓉*\n\n`
+            let text = `*Baji's Command List*\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
-            return void M.reply( await request.buffer('https://wallpapercave.com/uwp/uwp1415142.png'),  
+            return void M.reply( await request.buffer('https://wallpapercave.com/uwp/uwp1415154.png'),  
                                 MessageType.image,            
                                 undefined,
                                 undefined,
