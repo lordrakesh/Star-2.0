@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                 contextInfo: {
                     externalAdReply: {
                         title: `Search Term: ${term}`,
-                        body: `🖤𝓜𝓪𝓭𝓮 𝓯𝓸𝓻 𝔂𝓸𝓾 𝓼𝓸𝔀𝓶🖤`,
+                        body: `𝑀𝑎𝑑𝑒 𝐹𝑜𝑟 𝑌𝑜𝑢 𝐿𝑜𝑟𝑑 𝑅𝑎𝑘𝑒𝑠ℎ`,
                         mediaType: 2,
                         thumbnailUrl: videos[0].thumbnail,
                         mediaUrl: videos[0].url
