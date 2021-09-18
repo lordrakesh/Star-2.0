@@ -21,11 +21,11 @@ export default class Command extends BaseCommand {
 
 
 
-return void M.reply(await request.buffer('https://i.postimg.cc/1tw4rC3t/8debcf6fa25b3d81cd7896f61e4aea45-removebg-preview.png'),
+return void M.reply(await request.buffer('https://wallpapercave.com/uwp/uwp1415152.png'),
 MessageType.image,
             undefined,
             undefined,
-            `*Did you mean - #help*`
+            `*Did you mean - :help*`
 
 
 )
