@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
-            return void M.reply( await request.buffer('https://wallpapercave.com/uwp/uwp1414983.png'),  
+            return void M.reply( await request.buffer('https://wallpapercave.com/uwp/uwp1415142.png'),  
                                 MessageType.image,            
                                 undefined,
                                 undefined,
