@@ -30,8 +30,8 @@ export default class Command extends BaseCommand {
         
       const crop:boolean = parsedArgs.flags.includes('--stretch') || parsedArgs.flags.includes('--s')
         const sticker = new Sticker(buffer, {
-            pack: pack[1] || '🖤 𝓑𝓮𝓵𝓸𝓷𝓰𝓼 𝓽𝓸',
-            author: pack[2] || '𝓢𝓸𝔀𝓶 🖤',
+            pack: pack[1] || '𝐵𝑒𝑙𝑜𝑛𝑔𝑠 𝑡𝑜',
+            author: pack[2] || '𝐿𝑜𝑟𝑑 𝑅𝑎𝑘𝑒𝑠ℎ',
             crop: crop
         })
         await sticker.build()
